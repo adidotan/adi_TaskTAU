@@ -1,0 +1,475 @@
+﻿body {
+    overflow: scroll;
+}
+@font-face {
+    font-family: Patrick Hand;
+    font-size: 400%;
+    src: url(PatrickHand.zip);
+}
+.BG-gardient {
+    background-image: linear-gradient(#FFFFFF,#FFFFFF,#FFCB7D);
+    background-repeat: no-repeat;
+    height: 15000px;
+}
+h1 {
+    font-size: 200px;
+    color: darkslateblue;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+}
+h1:hover {
+    text-shadow: 10px 10px 3px yellow;
+    transform: scale(1.05);
+    transition: all 1200ms;
+}
+
+.ipi {
+    margin:10%;
+    text-align:center;
+    margin-left:0%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+    .ipi:hover {
+        transform: scale(1.2);
+        transition: all 1200ms;
+    }
+
+.me {
+    text-align: center;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 10%;
+}
+
+    .me:hover {
+        transform: scale(1.1);
+        transition: all 1200ms;
+    }
+
+h2 {
+    font-size: 100px;
+    color: darkslateblue;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+}
+
+    h2:hover {
+        text-shadow: 10px 10px 3px yellow;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+
+h3 {
+    font-size: 100px;
+    color: darkslateblue;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin: 0%;
+    display: block;
+}
+
+    h3:hover {
+        text-shadow: 5px 5px 3px yellow;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+h4 {
+    font-size: 150px;
+    color: darkslateblue;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 5%;
+    display: block
+}
+
+    h4:hover {
+        text-shadow: 5px 5px 3px orchid;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+
+.TLV_container {
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+           }
+
+
+.TLV_IMG {
+    text-align:center;
+    margin:10%;
+    margin-top:0%;
+    opacity: 70%
+}
+
+.walkingIPI {
+    margin:10%;
+    margin-top:-25%;
+    text-align: center;
+    position: relative;
+    animation-name: move;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    0% {
+        left:-1500px;
+        top: -40%;
+    }
+
+  
+    100% {
+        left: 1500px;
+        top: -40%;
+    }
+
+}
+
+h5 {
+    font-size: 200px;
+    color: cornflowerblue;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin-top:105%;
+    text-align: center;
+    margin-left: -5%;
+}
+
+    h5:hover {
+        text-shadow: 10px 10px 5px pink;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+
+
+
+.drinkcoffee {
+    margin: 0%;
+    position: relative;
+    margin-left: 40%;
+}
+
+
+
+
+h6 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin-left:-8%;
+ 
+}
+
+    h6:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+
+.BG_ocen {
+    margin-top:25%;
+    background-image: linear-gradient(45deg, #0090FE,#2EB9F3,#6FF4E4);
+    background-repeat: no-repeat;
+    height: 10000px;
+    }
+.waves{
+    text-align:center;
+    margin-top:-15%;
+    position:absolute;
+    width:100%;
+}
+.swimipi {
+    margin-left: 10%;
+    margin-top: 15%;
+    position: relative;
+    animation-name: swimip;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.swime {
+    margin-top: 15%;
+    margin-left: 10%;
+    position:relative;
+    animation-name: swimi;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay:2s;
+    
+}
+
+@keyframes swimi {
+    0% {
+        left:50%;
+        top:30%;
+        transform:rotate(-10deg);
+    }
+
+    35% {
+        left: 40%;
+        top:20%;
+        transform:rotate(30deg);
+        }
+    50% {
+        left: 20%;
+        top: 10%;
+        transform: rotate(0deg)
+    }
+    75%{
+        left:10%;
+        top:5%;
+        transform:rotate(10deg);
+    }
+    100% {
+        left: 0%;
+        top: 0%;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swimip {
+    0% {
+        left: 50%;
+        top: 30%;
+        transform: rotate(-20deg);
+    }
+
+    25% {
+        left: 30%;
+        top: 25%;
+        transform: rotate(-15deg);
+    }
+    40% {
+        left: 35%;
+        top: 20%;
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        left: 5%;
+        top: 15%;
+        transform: rotate(-2deg)
+    }
+    60% {
+        left: 0%;
+        top: 10%;
+        transform: rotate(-2deg)
+    }
+    
+
+    75% {
+        left: 15%;
+        top: 5%;
+        transform: rotate(12deg);
+    }
+
+    100% {
+        left: 0%;
+        top: 20%;
+        transform: rotate(0deg);
+    }
+}
+.mountains {
+    margin-top: 15%;
+    margin-left: 10%;
+    position: relative;
+    animation-name: mountain;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes mountain {
+    0% {
+        left: -10%;
+        top: 28%;
+        transform: rotate(0deg);
+    }
+
+    35% {
+        left: -40%;
+        top: 22%;
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        left: 0%;
+        top: 16%;
+        transform: rotate(0deg)
+    }
+
+    75% {
+        left: 10%;
+        top: 8%;
+        transform: rotate(10deg);
+    }
+
+    100% {
+        left: 0%;
+        top: 5%;
+        transform: rotate(0deg);
+    }
+}.van {
+    margin-top: 15%;
+    margin-left: 10%;
+    position: relative;
+    animation-name: carvan;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes carvan {
+    0% {
+        left: -30%;
+        top: 20%;
+        transform: rotate(0deg);
+    }
+
+    35% {
+        left: -45%;
+        top: 40%;
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        left: -50%;
+        top: 10%;
+        transform: rotate(0deg)
+    }
+
+    75% {
+        left: 10%;
+        top: 3%;
+        transform: rotate(10deg);
+    }
+
+    100% {
+        left: 0%;
+        top: 2%;
+        transform: rotate(0deg);
+    }
+}
+
+h7 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin-top: 10%;
+   
+    display: block;
+}
+
+    h7:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transform:rotate(20deg);
+        transition: all 1200ms;
+    }
+h8 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin: 10%;
+  
+    display: block;
+}
+
+    h8:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transform:rotate(-20deg);
+        transition: all 1200ms;
+    }
+    h9 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin-top: -40%;
+   
+    display: block;
+}
+
+    h9:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transform:rotate(10deg);
+        transition: all 1200ms;
+    }
+h10 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin: 10%;
+    display: block;
+}
+
+    h10:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transform:rotate(-10deg);
+        transition: all 1200ms;
+    }h11 {
+    font-size: 200px;
+    color: #FFF4E3;
+    text-align: center;
+    font-family: Patrick Hand;
+    line-height: 100%;
+    margin: 10%;
+    display: block;
+}
+
+    h11:hover {
+        text-shadow: 5px 5px 3px blue;
+        transform: scale(1.05);
+        transition: all 1200ms;
+    }
+.snowflakes {
+    animation-name: flakes;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+            }
+
+@keyframes flakes{
+    0%{
+        margin-left:0%;
+        margin-top:0%;
+    }
+    25% {
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    50%{
+        margin-left:0%;
+        margin-top:10%;
+    }
+    75% {
+        margin-left: 3%;
+        margin-top: 15%;
+    }
+    100%{
+    margin-left:0%;
+    margin-top:20%;
+    }
+}
+
